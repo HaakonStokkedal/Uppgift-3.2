@@ -9,7 +9,7 @@ namespace Uppgift_3._2
             Console.WriteLine("Har du gått ut gymnasiet? (j för ja och n för nej)");
             string gymnasie = Console.ReadLine();
             Console.WriteLine("Hur gammal är du?");
-            int ålder = int.Parse(Console.ReadLine());
+            int ålder = int.Parse(Console.ReadLine());//
 
             if (gymnasie == "j" && ålder < 22)
                 Console.WriteLine("Vi vill gärna anställa dig!");
